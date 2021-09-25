@@ -2,3 +2,8 @@
 from="/playlists/*"
 to="/.netlify/functions/playlists"
 status=200
+
+[[redirects]]
+from="/twitch/*"
+to="/.netlify/functions/twitch"
+status=200
