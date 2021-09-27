@@ -7,3 +7,8 @@ status=200
 from="/twitch/*"
 to="/.netlify/functions/twitch"
 status=200
+
+[[redirects]]
+from="/get-stream-status-image/*"
+to="/.netlify/functions/getStreamStatusImage"
+status=200
